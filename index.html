@@ -1,0 +1,58 @@
+<!-- HTML code for tip calculator -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+        <title>Tip Calculator</title> <!--title of the page -->
+    </head>
+
+    <body>
+        <header>
+        <h1>The Family Restuarant</h1>
+        <h3>Tip Calculator</h3> <!-- heading of the page -->
+        </header>
+        <form class="main">
+            <div class="main_left"><!-- this div tag contains the input tags that will displayed on the left side on the page-->
+                <label for="bill">Bill</label>
+                <input type="number" id="bill" name="bill" required>
+
+                <div class="bind"> <!-- bind class will bind text,input tag and button together-->
+                    <label for="tip"> Tip % </label>
+                    <input type="button" class="minus" value="-" onclick="Calculator.decrementTip()">
+                    <input type="number" id="tip" name="tip" min=0 required>
+                    <input type="button" class="plus" value="+" onclick="Calculator.incrementTip()">
+                </div>
+
+                <div class="bind"> <!-- bind class will bind text,input tag and button together-->
+                    <label for="NOP">Number of people</label>
+                    <input type="button" class="minus" value="-" onclick=Calculator.decrementNop()">
+                    <input type="number" id="NOP" name="NOP" min=1 required>
+                    <input type="button" class="plus" value="+" onclick="Calculator.incrementNop()">
+                </div>
+                
+                <input type="button" value="Calculate" style="margin-left: 27%; margin-top: 2%;" onclick="Calculator.calculate()">
+
+            </div>
+            <div class="main_right"><!-- this div tag contains the tags that will be displayed on the right side on the page-->
+                <div class="div1">
+                    <p>Tip</p>
+                    <p class="s">per person</p>
+                    <span id="tip_per_person"> <!-- display the tip per person--></span>
+                </div>
+    
+                <div class="div2">
+                    <p>Total</p>
+                    <p class="s">per person</p>
+                    <span id="bill_per_person"> <!-- display the bill per person--></span>
+                </div>
+            </div>
+            
+        </form>
+    </body>
+
+</html>

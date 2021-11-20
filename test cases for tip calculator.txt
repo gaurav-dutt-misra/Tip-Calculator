@@ -1,0 +1,157 @@
+test cases for tip calculator
+
+1-	bill= 0
+	tip% = 2
+	Number of people = 10
+
+	output- tip per person = $0.10
+	              total per person = $5.10
+	explation- as bill is zero therefore tip per person  will be $0.00 and total per person will be $0.00
+
+2-	bill= 100
+	tip% = 2
+	Number of people = 20
+
+	output- tip per person = $0.00
+	              total per person = $0.00
+	explation-  using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson,  tip per person  will be $0.10 and total per person will be $5.10.
+
+3-	bill= 100
+	tip% = 2
+	Number of people = 0
+
+
+	output-  alert box showing number of person is always integer and greater than zero.
+	explation- Number of people should be integer.
+
+4-	bill= 100
+	tip% = 0
+	Number of people = 3
+
+	output- tip per person = $0.00
+	              total per person = $33.33
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $0.00 and total per person will be $33.33.
+
+5-	bill= 0
+	tip% = 0
+	Number of people = 0
+
+	output-  alert box showing number of person is  greater than zero.
+	explation- Number of people should be integer.
+
+6-	bill= 100
+	tip% = 100
+	Number of people = 100
+
+	output- tip per person = $1.00
+	              total per person = $2.00
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $1.00 and total per person will be $2.00.
+
+7-	bill= 56789
+	tip% = 2
+	Number of people = 5
+
+	output- tip per person = $227.16
+	              total per person = $11584.96
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $227.16 and total per person will be $11584.96
+
+8-	bill= 1
+	tip% = 1
+	Number of people = 1
+
+	output- tip per person = $0.01
+	              total per person = $1.01
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $0.01and total per person will be $1.01
+
+9-	bill= 6859
+	tip% = 100
+	Number of people = 7
+
+	output- tip per person = $979.86
+	              total per person = $1959.71
+	explation-using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $979.86 and total per person will be $1959.71.
+
+10-	bill= 120
+	tip% = 2
+	Number of people = 10
+
+	output- tip per person = $0.24
+	              total per person = $12.24
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson,tip per person  will be $0.24 and total per person will be $12.24.
+
+11-	bill= 1
+	tip% = 1
+	Number of people = 1.5
+
+	output-  alert box showing number of person is always integer.
+	explation- Number of people should be integer.
+
+12-	bill= 900000
+	tip% = 20
+	Number of people = 10
+
+	output- tip per person = $18000.00
+	              total per person = $108000.00
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson,tip per person  will be $18000.00 and total per person will be $108000.00
+
+13-	bill= 102920
+	tip% = 99
+	Number of people = 10
+
+	output- tip per person = $10189.08
+	              total per person = $20481.08
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $10189.08 and total per person will be $20481.08.
+
+14-	bill= 198765
+	tip% = 0
+	Number of people = 10
+
+	output- tip per person = $0.00
+	              total per person = $19876.50
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $0.00 and total per person will be $19876.50.
+
+15-	bill= 0
+	tip% = 0
+	Number of people = 10
+
+	output- tip per person = $0.00
+	              total per person = $0.00
+	explation- as bill is zero therefore tip per person  will be $0.00 and total per person will be $0.00.
+
+16-	bill= 09090
+	tip% = 2
+	Number of people = 0
+
+	output-  alert box showing number of person is always integer and greater than zero.
+	explation- Number of people cannot be zero.
+17-	bill= 9876543456678
+	tip% = 2
+	Number of people = 232
+
+	output- tip per person = $43422734162.98
+	              total per person = $851426160.06
+	explation-  using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $43422734162.98 and total per person will be $851426160.06.
+
+18-	bill= 99
+	tip% = 2
+	Number of people = 9
+
+	output- tip per person = $0.22
+	              total per person = $11.22
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $0.22 and total per person will be $11.22
+19-	bill= 1010
+	tip% = 4
+	Number of people = 10
+
+	output- tip per person = $4.04
+	              Total per person = $105.04
+	explation- using the formula tip per person = ((bill * tip)/ 100)/numberOfPerson and Total per person = (bill + (bill * tip) / 100) / numberOfPerson, tip per person  will be $4.04 and total per person will be $105.04
+
+20-	bill= 1000
+	tip% = 100
+	Number of people = 100.33
+
+	output-  alert box showing number of person is always integer and greater than zero.
+	explation- Number of people should be integer.
+
+ 
